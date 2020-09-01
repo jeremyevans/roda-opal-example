@@ -1,3 +1,4 @@
+require 'opal'
 require 'roda'
 require 'tilt/opal'
 
@@ -16,7 +17,7 @@ Roda.route do |r|
 <head>
 <title>Roda/Opal Integration Test</title>
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="http://cdn.opalrb.org/opal/0.7.1/opal.min.js"></script>
+<script src="http://cdn.opalrb.com/opal/1.0.0/opal.min.js"></script>
 #{assets(:js)}
 </head>
 <body>
